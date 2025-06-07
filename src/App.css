@@ -1,0 +1,376 @@
+/* {
+                            show && <div>
+                                                    <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                                            <div className="first border border-r-0 border-l-0 border-gray-200 w-[90%] px-1 py-2 lg:px-3 lg:py-5 text-sm md:text-md lg:text-[15px]">
+                            <div id='top' className='w-[80%] flex justify-between pb-1'>
+                                <div className='flex gap-2 lg:gap-4 lg:w-[40%]'>
+                                    <span><img className='w-[30px] lg:w-[50px]' src={img} alt="" /></span>
+                                    <h1 className='lg:w-[50%] my-auto'>Bibian Okoro</h1>
+                                </div>
+                                <button className='bg-gray-200 px-2 py-1 rounded-full lg:px-4 my-auto'>follow</button>
+                            </div>
+                            <div id='mid' className='w-[100%] flex gap-2 lg:gap-5 lg:my-auto'>
+                                <div className='w-[80%] lg:text-[15px]'>
+                                    <h1 className='font-bold py-1 lg:py-2'>How do you overcome writer's block when on a deadline?</h1>
+                                    <p className='text-gray-500'>I'm struggling with a project due next week and can't seem to get past the introduction. Any proven techniques from the community ? </p>
+                                </div>
+                                <span className='w-[20%]'><img src={postImage} alt="" /></span>
+                            </div>
+                            <div id='bottom' className='lg:w-[80%] flex md:justify-between py-3 lg:py-0'>
+                                <div className='flex text-gray-500 w-[80%] md:w-[50%] lg:w-[40%] md:gap-3 gap-2'>
+                                    <p className='text-[12px] lg:text-[14px]'>April 29</p> 
+                                    <div className='flex'>
+                                        <Heart size={20} className='text-gray-200 lg:size-6'/>
+                                        <sub className='text-[8px] pt-3'>242</sub>
+                                </div>
+                                    <span><img className='lg:w-[60%] w-[50%]' src={comment} alt="" /></span>
+                                </div>
+                                <div className='flex w-[30%] md:w-[35%] lg:w-[20%]'>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={action} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={bookmark} alt="" /></span>
+                                    <span><img className='w-[60%] md:w-[50%] lg:w-[60%]' src={dot} alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        }             */
